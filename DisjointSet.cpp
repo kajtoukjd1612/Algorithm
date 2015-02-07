@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef pair<int,int> ii;
-
 /* Disjoint Set */
 vector<int> Setname(1001),Setsize(1001);
 int NumSet;
