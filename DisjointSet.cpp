@@ -50,5 +50,9 @@ void Union(int i,int j) {
         else Parent[Pi] = Pj;
         if(Rank[Pi] == Rank[Pj]) Rank[Pj] += 1;
 }
+
+bool sameset(int i, int j) {
+        return findset(i) == findset(j);
+}
 /* end */
 
